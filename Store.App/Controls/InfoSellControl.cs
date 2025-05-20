@@ -78,7 +78,7 @@ public partial class InfoSellControl : UserControl {
 				                            item.IsCredit.GetLocalized(),
 				                            item.Literature.Title,
 				                            item.Literature.Topic,
-				                            item.Literature.Language,
+				                            item.Literature.Language.GetLocalized(),
 				                            item.Literature.Pages,
 				                            item.Literature.Price);
 		}
